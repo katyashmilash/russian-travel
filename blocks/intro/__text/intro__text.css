@@ -1,16 +1,16 @@
 .intro__text {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0;
-    max-width: 690px;
-    padding: 40px 0 0 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+  max-width: 690px;
+  padding: 40px 0 0 0;
 }
 
 @media screen and (max-width: 767px) {
-    .intro__text {
-        line-height: 26px;
-        font-size: 16px;
-    }    
+  .intro__text {
+    line-height: 26px;
+    font-size: 16px;
+  }
 }

@@ -1,25 +1,25 @@
 .photos {
-    max-width: 1184px;
-    margin: 0 auto;
-    padding: 92px 0 92px 0;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 92px 0 92px 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .photos {
-        max-width: 928px;
-    }    
+  .photos {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .photos {
-        padding: 88px 0 88px 0;
-        max-width: 720px;
-    }    
+  .photos {
+    padding: 88px 0 88px 0;
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .photos {
-        padding: 64px 0 64px 0;
-        max-width: 288px;
-    }    
+  .photos {
+    padding: 64px 0 64px 0;
+    max-width: 288px;
+  }
 }

@@ -1,18 +1,18 @@
 .header__links {
-    display: flex;
-    gap: 18px;
-    list-style: none;
-    line-height: 28px;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 0;
-    padding: 0 0 6px 0;
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 6px 0;
 }
 
-
 @media (max-width: 767px) {
-    .header__links {
-        line-height: 20px;
-        font-size: 18px;
-    }    
+  .header__links {
+    line-height: 20px;
+    font-size: 18px;
+    padding: 0 0 8px 0;
+  }
 }

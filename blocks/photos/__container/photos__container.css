@@ -1,26 +1,26 @@
 .photos__container {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .photos__container {
-        gap: 14px;
-    }    
+  .photos__container {
+    gap: 14px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .photos__container {
-        gap: 16px;
-    }    
+  .photos__container {
+    gap: 16px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .photos__container {
-        gap: 12px;
-    }    
+  .photos__container {
+    gap: 12px;
+  }
 }
