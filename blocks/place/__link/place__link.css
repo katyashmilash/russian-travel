@@ -5,6 +5,7 @@
   color: #ffffff;
   margin: 0;
   text-decoration: underline;
+  transition: 0.5s ease;
 }
 
 .place__link:hover {

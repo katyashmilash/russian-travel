@@ -3,6 +3,7 @@
   aspect-ratio: 16/10;
   background-image: url("../../images/cover-trains.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   color: #ffffff;
   display: flex;
@@ -31,12 +32,6 @@
 
 .cover:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 1279px) {
@@ -56,6 +51,5 @@
 @media screen and (max-width: 767px) {
   .cover {
     margin: 66px 0 0 0;
-    padding: 0;
   }
 }
